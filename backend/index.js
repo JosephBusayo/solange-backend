@@ -17,7 +17,7 @@ import { upload, handleUpload } from './config/cloudinaryConfig.js';
 import formidable from "express-formidable";
 import { authenticate, authorizeAdmin } from "./middlewares/authMiddleware.js";
 import bodyParser from "body-parser"
-
+import cors from "cors"
 dotenv.config();
 const port = process.env.PORT || 5000;
 
